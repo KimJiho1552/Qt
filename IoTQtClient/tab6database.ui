@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tab6DataBase</class>
+ <widget class="QWidget" name="Tab6DataBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>461</width>
+    <height>347</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QDateTimeEdit" name="pDateTimeEditFrom">
+       <property name="dateTime">
+        <datetime>
+         <hour>0</hour>
+         <minute>0</minute>
+         <second>0</second>
+         <year>2022</year>
+         <month>6</month>
+         <day>10</day>
+        </datetime>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDateTimeEdit" name="pDateTimeEditTo">
+       <property name="dateTime">
+        <datetime>
+         <hour>0</hour>
+         <minute>0</minute>
+         <second>0</second>
+         <year>2022</year>
+         <month>6</month>
+         <day>30</day>
+        </datetime>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pPBSearch">
+       <property name="text">
+        <string>조회</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pPBDelete">
+       <property name="text">
+        <string>삭제</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QTableWidget" name="pTablewidget">
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>87</number>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>ID</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>DATE</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>조도</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>온도</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>습도</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

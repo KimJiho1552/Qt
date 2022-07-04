@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWidget</class>
+ <widget class="QWidget" name="MainWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>478</width>
+    <height>363</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWidget</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>5</number>
+     </property>
+     <widget class="QWidget" name="pTab1">
+      <attribute name="title">
+       <string>Main</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="pTab2">
+      <attribute name="title">
+       <string>Server</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="pTab3">
+      <attribute name="title">
+       <string>Switch</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="pTab4">
+      <attribute name="title">
+       <string>Sensor</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="pTab5">
+      <attribute name="title">
+       <string>Chart</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="pTab6">
+      <attribute name="title">
+       <string>DB</string>
+      </attribute>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
